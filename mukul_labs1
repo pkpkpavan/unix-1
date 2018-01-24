@@ -1,0 +1,53 @@
+commands
+1.To make directory-mkdir name
+2.to change command name-cd name
+3.to display all the files under your directory-ls
+4.reverse locomotive-sl
+5.for a funny advice-fortune
+6.to create a vim file-vim file_name
+7.x - to delete the unwanted character
+8.u - to undo the last the command and U to undo the whole line
+9.CTRL-R to redo
+10.A - to append text at the end
+11.:wq - to save and exit
+12.:q! - to trash all changes
+13.dw - move the cursor to the beginning of the word to delete that word
+14.2w - to move the cursor two words forward.
+15.3e - to move the cursor to the end of the third word forward
+16.0 (zero) to move to the start of the line.
+17.p - puts the previously deleted text after the cursor(Type dd to delete the line and store it in a Vim register. and p to put the line)
+
+18.r - to replace the letter e.g press re to replace the letter with e
+
+19.ce - to change until the end of a word (place the cursor on the u in lubw it will delete ubw )
+
+20.ce - deletes the word and places you in Insert mode
+
+21.G - to move you to the bottom of the file.
+
+22.gg - to move you to the start of the file.
+23.:w - TEST (where TEST is the filename you chose.) . Save the file
+
+24.v - starts visual mode for selecting the lines and you can perform operation on that like d delete
+
+25.:r - Filename will insert the content into the current file
+
+26.R - to replace more than one character
+
+27.y - operator to copy text using v visual mode and p to paste it
+
+28.yw - (copy)yanks one word
+
+29.o - opens a line below the cursor and start Insert mode.
+
+30.A - inserts text after the end of the line.
+
+31.e - command moves to the end of a word.
+
+32.y - operator yanks (copies) text, p puts (pastes) it.
+
+33.R - enters Replace mode until <ESC> is pressed.
+
+34.ctrl-w to jump from one window to another
+
+35.O - opens a line above the cursor.
