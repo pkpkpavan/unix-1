@@ -1,0 +1,11 @@
+commands
+1.to make a directory- mkdir name
+2.change command name- cd name
+3.to display all the files under your directory-ls
+4.reverse locomotive-sl
+5.to install acommand-sudo apt-get install command_name
+
+
+commands for vim
+1.to insert-i
+2.
