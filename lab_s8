@@ -1,0 +1,23 @@
+Q1. prefix date infront of the file name and display
+grep "unix" sample
+  320  grep -i "unix" sample
+  321  grep -c "unix" sample
+  322  grep -n "unix" sample
+  323  grep -v "unix" sample
+
+file="/home/cs2016a206/test2"
+cdate=$(date +%Y-%m-%d) 
+for file in *; do
+    mv "$file" "$cdate"_"$file"
+done
+
+
+Q2. use different grep commands
+
+    cat > sample
+
+    grep "unix" sample
+    grep -i "unix" sample
+    grep -c "unix" sample
+    grep -n "unix" sample
+    grep -v "unix" sample
