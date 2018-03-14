@@ -1,0 +1,78 @@
+01|mukul|ceo|99999
+02|harsha|directo|98888
+03|vinith|manager|98888
+04|rashid|staff|50000
+05|gaurav|staff|100
+06|pranjal|manager|20000
+07|pavan|director|7000
+08|pranav|manager|20000
+09|dj|staff|10000
+10|prajval|staff|3000
+11|mukul|manager|3000
+
+Q1- delete all the blank space
+ans- 
+//list before deleting blank spaces
+01|mukul|ceo|99999
+02|harsha|directo|98888
+03|vini th|manag er|98 888
+04|rashid|staff|50000
+05|gau rav|staff|100
+06|pr anjal|manager|20000
+07|pavan|director|700 0
+08|pranav|manager|20000
+09|dj |staff|10000
+10|prajval|s taf f|3000
+11|mukul|manager|3 000
+
+command- sed 's/ //g' emp.lst
+
+01|mukul|ceo|99999
+02|harsha|directo|98888
+03|vinith|manager|98888
+04|rashid|staff|50000
+05|gaurav|staff|100
+06|pranjal|manager|20000
+07|pavan|director|7000
+08|pranav|manager|20000
+09|dj|staff|10000
+10|prajval|staff|3000
+11|mukul|manager|3000
+
+Q-2. print only odd numbers of lines using awk command
+ans- 
+command - awk 'NR %2 == 1' emp.lst
+
+
+01|mukul|ceo|99999
+03|vinith|manager|98888
+05|gaurav|staff|100
+07|pavan|director|7000
+09|dj|staff|10000
+11|mukul|manager|3000
+
+
+Q3- print the last linewithout knowing the number
+ans-
+command sed -n '$p' emp.lst
+
+
+
+
+Q4. awk command for head -n 5 filename
+ans- 
+command -awk 'NR==1,NR==5' emp.lst
+
+01|mukul|ceo|99999
+02|harsha|directo|98888
+03|vinith|manager|98888
+04|rashid|staff|50000
+05|gaurav|staff|100
+
+
+Q5- awk command for sed -n '5,10p' filemane
+ans-
+command- awk 'NR==5,NR==10; emp.lst
+
+Q6 awk command for tail  +5 filename
+ans- awk "NR==5,NR==999' emp.lst
