@@ -1,0 +1,13 @@
+PROGRAM
+-------
+
+names='Adam Ben Carl Dom'
+PS3='Select names: '
+select name in $names
+do
+    if [ $name == dom ]
+      then
+        break
+    fi
+    echo "hello $name"
+done
